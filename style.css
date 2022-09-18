@@ -8,14 +8,14 @@ ul {
 }
 
 body{
-    background-image: url(assets/Fundo\ \(2\).jpg);
-    background-position: top center;
+    background-image: url(assets/estrelas\ \(1\).png);
+    background-position: top;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: #121214;
 }
 body * {
-    font-family: 'inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 160%;
 }
 header {
@@ -25,7 +25,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
     border-radius: 50%;
     display: flex;
     padding: 4px;
@@ -55,9 +55,8 @@ main {
 }
 
 section{
-    color: white;
-    border: 1px solid;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    color: white; 
+    background-image: linear-gradient(90deg, #c91842 0%, #5cc2e2 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -73,7 +72,8 @@ section h2{
     letter-spacing: -0.47px;
 }
 section p{
-    color: #A1A1AA;
+    color: #C1C1C1;
+    letter-spacing: -0.18px;
 }
 ul {
     display: flex;
@@ -89,14 +89,14 @@ section ul li:hover{
     transform: scale(1.1);
 }
 
-.games-list img{
+.movies-list img{
     width: 90px;
     border-radius: 8px;
 }
-.channel-list img {
-    width: 70px;
-    border-radius: 50%;
-    border: 1px solid #443e54;
+.series-list img {
+    width: 90px;
+    border-radius: 8px;
+    
 }
 
 /*animation*/
@@ -124,23 +124,23 @@ main section:nth-child(3){
 @keyframes fromtop {
     from {
         opacity: 0;
-        transform: translateY(-30px);
+        transform: translateX(-30px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
 @keyframes fromBottom {
     from{
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateX(-30px);
     }
 
     to{
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
